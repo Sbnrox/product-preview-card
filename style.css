@@ -1,20 +1,22 @@
-
 body{
     background-color: hsl(30, 38%, 92%);
-    display: grid;
-    place-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
 }
 .container{
     display: flex;
     border-radius: 10px;
+    overflow: hidden;
+    border-radius: 10px;
 }
 .text{
-    padding-left: 25px;
+    padding: 25px;
     max-width: 17rem;
     margin-right: 20px;
     background-color: rgb(246, 150, 255);
-    max-height: 400px;
     border-top-right-radius:10px ;
     border-bottom-right-radius:10px ;
     overflow-wrap: break-word;
@@ -25,7 +27,7 @@ body{
     border: none;
     border-radius: 5px;
     padding: 12px;
-    width: 250px; 
+    width: 100%;
     font-weight: 700;
     margin-top: 10px;
     cursor: pointer;
@@ -44,25 +46,20 @@ body{
 p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 14px;
     color: hsl(228, 12%, 48%); 
 }
 .prices{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 14px; 
     margin-top: 15px;
 }
 .image{
     max-height: 500px;
-    background: url('image-product-desktop.jpg') no-repeat;
-    background-size: 100%;
-    background-image: image(image-product-desktop);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 @media (max-width: 375px){
     .container{
-        display: block;
-    }
+        flex-direction: row;
+}
 }
