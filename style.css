@@ -37,16 +37,19 @@ body{
     font-weight: 500;
     text-transform: uppercase;
     margin-top: 25px;
+    margin-bottom: 10px;
 }
 .title{
     font-family: 'Fraunces', serif;
     font-weight: 700;
     color: hsl(212, 21%, 14%);
+    margin-bottom: 10px;
 }
 p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: hsl(228, 12%, 48%); 
+    margin-bottom: 10px;
 }
 .prices{
     font-family: 'Montserrat', sans-serif;
