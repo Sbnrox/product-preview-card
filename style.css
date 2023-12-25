@@ -53,5 +53,9 @@ p{
 .image{
     object-fit: contain;
 }
-@media (min-width: 42.80rem{
+@media (min-width: 42.80rem){
+}
+@media (min-width:90rem){
+    .container{ display: flex;
+    flex-direction: row;}
 }
