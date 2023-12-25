@@ -12,8 +12,6 @@ body{
 }
 .text{
     padding: 25px;
-    max-width: 17rem;
-    margin-right: 20px;
     background-color: rgb(246, 150, 255);
     overflow-wrap: break-word;
 }
@@ -53,11 +51,7 @@ p{
     margin-top: 15px;
 }
 .image{
-    max-height: 500px;
     object-fit: contain;
 }
-@media (min-width: 375px){
-    .container{
-        flex-direction: row;
-}
+@media (min-width: 42.80rem{
 }
