@@ -14,7 +14,7 @@ body{
 }
 .text{
     padding: 25px;
-    background-color: rgb(246, 150, 255);
+    background-color: rgb(255, 255, 255);
     overflow-wrap: break-word;
     margin-top: -3px;
 }
