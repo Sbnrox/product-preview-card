@@ -1,5 +1,6 @@
 body{
     background-color: hsl(30, 38%, 92%);
+    
 }
 .container{
     display: flex;
@@ -15,6 +16,7 @@ body{
     padding: 25px;
     background-color: rgb(246, 150, 255);
     overflow-wrap: break-word;
+    margin-top: -3px;
 }
 .button{
     color: rgb(255, 255, 255);
@@ -62,6 +64,8 @@ p{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-
+}
+.text{
+    height: 350px;
 }
 }
