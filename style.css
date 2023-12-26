@@ -9,6 +9,7 @@ body{
     min-height: 100vh;
     border-radius: 10px;
     overflow: hidden;
+    max-width: 34rem;
 }
 .text{
     padding: 25px;
@@ -38,6 +39,7 @@ body{
     font-weight: 700;
     color: hsl(212, 21%, 14%);
     margin-bottom: 10px;
+    font-size: 30px;
 }
 p{
     font-family: 'Montserrat', sans-serif;
@@ -53,9 +55,13 @@ p{
 .image{
     object-fit: contain;
 }
-@media (min-width: 42.80rem){
+@media (min-width:34rem){
+    .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
 }
-@media (min-width:90rem){
-    .container{ display: flex;
-    flex-direction: row;}
 }
