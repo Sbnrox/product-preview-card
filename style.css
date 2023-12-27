@@ -29,6 +29,9 @@ body{
     margin-top: 10px;
     cursor: pointer;
 }
+.button:hover{
+background-color: rgba(0, 139, 139, 0.75);
+}
 .ribbon-text{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -57,6 +60,7 @@ p{
 .image{
     object-fit: contain;
 }
+@media (min-width:34rem){
     .container{
         flex-direction: row;
     }
